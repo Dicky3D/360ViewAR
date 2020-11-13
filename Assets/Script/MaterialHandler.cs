@@ -13,8 +13,8 @@ namespace Sepay.Nugie {
         void Start()
         {
             rend = GetComponent<Renderer>();
-            rend.enabled = true;
-            rend.sharedMaterial = environmentAR[0];
+            // rend.enabled = true;
+            // rend.sharedMaterial = environmentAR[1];
         }
 
         public void Sains3Material() {
